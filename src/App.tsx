@@ -15,6 +15,7 @@ import {
   MapPin,
   Menu,
   Moon,
+  Phone,
   Sun,
   X,
   BriefcaseBusiness as LinkedInMark,
@@ -406,7 +407,7 @@ function App() {
               <span className="section-index">ELSEWHERE ON THE WEB</span>
               <a href={profile.github} target="_blank" rel="noreferrer"><GitHubMark size={17} /> GitHub <ArrowUpRight size={14} /></a>
               <a href={profile.linkedin} target="_blank" rel="noreferrer"><LinkedInMark size={17} /> LinkedIn <ArrowUpRight size={14} /></a>
-              <a href={`tel:${profile.phone.replaceAll(' ', '')}`}><Mail size={17} /> {profile.phone} <ArrowUpRight size={14} /></a>
+              <a href={`tel:${profile.phone.replaceAll(' ', '')}`}><Phone size={17} /> {profile.phone} <ArrowUpRight size={14} /></a>
             </div>
           </Reveal>
         </section>
