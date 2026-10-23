@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://virendra-prajapati-portfolio.vercel.app/sitemap.xml
