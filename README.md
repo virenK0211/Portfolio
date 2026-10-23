@@ -16,7 +16,7 @@ npm run build
 npm run preview
 ```
 
-The build runs TypeScript checks, generates the optimized Vite site in `dist/`, and writes a sitemap. Set `VITE_SITE_URL` to the canonical production origin when building outside Vercel; otherwise the sitemap generator uses Vercel's production URL or the configured project domain.
+The build runs TypeScript checks, generates the optimized Vite site in `dist/`, and writes `sitemap.xml` and `robots.txt` using the canonical site URL. Set `VITE_SITE_URL` to the production origin when building outside Vercel; otherwise the generator uses Vercel's production URL or the configured project domain.
 
 ## Update portfolio details
 

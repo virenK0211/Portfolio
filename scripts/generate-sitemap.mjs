@@ -21,3 +21,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 `
 
 await writeFile(new URL('../dist/sitemap.xml', import.meta.url), sitemap)
+await writeFile(
+  new URL('../dist/robots.txt', import.meta.url),
+  `User-agent: *\nAllow: /\nSitemap: ${siteUrl}/sitemap.xml\n`,
+)
